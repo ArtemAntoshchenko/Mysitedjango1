@@ -1,0 +1,21 @@
+*{padding: 0; margin: 0}
+body{width: 1200px; height: 16078px; background-color: #FFFFFF; display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
+body a{font-family: Roboto; font-weight: 400; font-style: Regular; letter-spacing: 0%; color: #000000; text-decoration: none;}
+body p{font-family: Roboto; font-weight: 400; font-style: Regular; letter-spacing: 0%; color: #000000}
+
+.header{width: 709px; height: 57px; opacity: 1; border-radius: 10px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
+.header a{ font-size: 17px; line-height: 20px}
+#logo{width: 45px; height: 45px}
+.header1_1{height: 20px; width: 500px; top: 17px; left: 20px; display: flex; flex-direction: row; justify-content: space-between; align-items: center}
+.header1_2{width: 112px; height: 44px; opacity: 1; border-radius: 5px; background-color: #8247FF; display: flex; flex-direction: row; justify-content: center; align-items: center}
+#header_span1{size: 18px}
+#header_span2{color: #FFFFFF;}
+
+.content{width: 1200px; height: 15300px; display: flex; flex-direction: column; justify-content:space-between; align-items: center}
+.content1{width: 1100px; height: 277px;}
+.content1 p {font-size: 98px; line-height: 92.12px; text-align: center; text-transform: uppercase}
+.content2{width: 1066px; height:489px; position: relative;}
+#programm{width: 718px; height: 489px; left: 163px; position: absolute; z-index: 1;}
+#programm2{width: 229px; height: 193px; top: 228px; position: absolute; z-index: 2;}
+#programm3{width: 185px; height: 260px; left: 881px; top: 105px; position: absolute;}
+#programm4{width: 577px; height: 457px; left: 181px; top: 17px; position: absolute; z-index: 4;}

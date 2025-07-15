@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/index.css" %}">
+    <title>{% block title %}Мой сайт{% endblock title %}</title>
+</head>
+<body>
+    <div class="header">
+        {% block header %}
+        <img src="{% static "img/logo.png" %}" alt="logo" id="logo"">
+        <div class="header1_1">
+            <a href="#">Why it's good</a>
+            <a href="#">How it works</a>
+            <a href="#">Templates</a>
+            <a href="#">Pricing</a>
+            <a href="#"><span id="header_span1">FAQ</span></a>
+        </div>
+        <div class="header1_2">
+            <a href="#"><span id="header_span2">Get Started</span></a>
+        </div>
+        {% endblock header %}
+    </div>
+    
+    <div class="content">
+        {% block content %}
+            <div class="content1">
+                <p>we customize your webflow template in minutes</p>
+            </div>
+            <div class="content2">
+                <img src="{% static "img/programm.png" %}" alt="programm" id="programm"">
+                <img src="{% static "img/programm4.png" %}" alt="programm4" id="programm4"">
+                <img src="{% static "img/programm2.png" %}" alt="programm2" id="programm2"">
+                <img src="{% static "img/programm3.png" %}" alt="programm3" id="programm3"">
+            </div>
+        {% endblock content %}
+    </div>
+    <div class="footer">
+    {% block footer %}
+    {% endblock footer %}
+    </div>
+    
+</body>
+</html>

@@ -22,5 +22,3 @@ body p{font-family: Roboto; font-weight: 400; font-style: Regular; letter-spacin
 .content3{width: 112px; height: 36px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
 .content3 p{font-size: 24px; line-height: 36px; text-align: center;}
 .content3_1{width: 18px; height: 18px; border-radius: 200px; background-color: #000000;}
-
-
